@@ -44,9 +44,11 @@ pip install numpy torch pyyaml
 
 Modify ```config.yaml``` to define the following:
 
-```g_hid: [128, 256, 512]```     # Generator hidden layer sizes
-```d_hid: [128, 256, 512]```     # Discriminator hidden layer sizes
-```lr_range: [0.001, 0.0005, 0.0001]```  # Learning rate options
+```g_hid: [128, 256, 512]``` : Generator hidden layer sizes
+
+```d_hid: [128, 256, 512]```  : Discriminator hidden layer sizes
+
+```lr_range: [0.001, 0.0005, 0.0001]```  : Learning rate options
 
 ## Usage
 
